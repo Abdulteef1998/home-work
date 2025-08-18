@@ -2,7 +2,7 @@
 void main() {
   var numberOfRoom = 'Ten';
   print(numberOfRoom);
-  numberOfRoom = 10;
+//  numberOfRoom = 10;
   print(numberOfRoom);
   // cannot reassign a different type to a var variable in Dart because it is statically typed after the first assignment.
 //  print(numberOfRoom);
