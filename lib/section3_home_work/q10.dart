@@ -8,7 +8,7 @@ void main() {
   var age = 26;
   print(age);
   age =
-      'Twenty Six'; // canot assign a String to int varrible by var  . I left it like this to prove the value cannot change and printed
+      25; // canot assign a String to int varrible by var  . I left it like this to prove the value cannot change and printed
   print(age);
   dynamic yourAge = 20;
   print(yourAge);
