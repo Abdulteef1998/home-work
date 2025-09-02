@@ -3,5 +3,5 @@
 // value of 12.5, and prints it to the console.
 void main() {
   double number = 12.5;
-  print('$number');
+  print(number);
 }
