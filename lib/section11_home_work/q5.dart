@@ -33,12 +33,10 @@ void main() {
   print('Title: ${book1.title}');
   print("Estimated reading time: ${book1.readingTime} minutes");
 
-  // تحديث القيم باستخدام setters
   book1.pages = 300;
   print('Updated Reading Time: ${book1.readingTime} minutes');
 
-  book1.title = ""; // Invalid title
-  book1.pages = -10; // Invalid pages
-  print(book1.title);
+  book1.title = "";
+  book1.pages = -10;
   print("Estimated reading time: ${book1.readingTime} minutes");
 }
